@@ -1,0 +1,407 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+#sidebar {
+    width: 250px;
+    min-width: 250px;
+    background-color: #0a1929;
+    /* Darker Marine Blue */
+    color: #c8d3de;
+    /* Lighter gray for text */
+    border-right: 1px solid #000;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Style the header within the sidebar */
+#sidebar .header {
+    padding: 0.4rem;
+    margin: 0;
+    color: #fff;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sidebar .header h3 {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#sidebar .header a {
+    padding: 2px;
+    gap: 1;
+}
+
+#sidebar .header a .ic {
+    filter: invert(80%) hue-rotate(95deg);
+
+
+    font-size: 16px;
+
+
+}
+
+#sidebar .header button:hover,
+#sidebar .header a.btn:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Custom Scrollbar for Webkit browsers (Chrome, Safari) */
+.file-tree-container {
+    overflow: auto;
+
+
+}
+
+.file-tree-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.file-tree-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.file-tree-container::-webkit-scrollbar-thumb {
+    background-color: #2a3f54;
+}
+
+#file-tree .list-group-item {
+    cursor: pointer;
+    border: none;
+    padding: 0.15rem 0.35rem;
+    background-color: transparent;
+    color: #c8d3de;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+#file-tree .list-group-item:hover,
+#file-tree .list-group-item.active {
+    /* Added .active for future use */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.context-menu {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    border-radius: .25rem;
+    overflow: hidden;
+    /* Ensures child border-radius is clipped */
+}
+
+.context-menu .list-group {
+    background-color: #f0f0f0;
+    border: 1px solid #e0dede;
+    box-shadow: 0 2px 4px rgba(17, 17, 17, 0.5);
+}
+
+.context-menu .list-group-item {
+    background-color: transparent;
+    color: #444;
+    border-color: #e0dede;
+    padding: .4rem;
+    font-size: 13px;
+    cursor: default;
+    min-width: 120px;
+}
+
+.context-menu .list-group-item:hover {
+    background-color: #dfdbdb;
+    color: #222;
+}
+
+.context-menu .list-group-item-danger {
+    color: #e74c3c;
+}
+
+.context-menu .list-group-item-danger:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+
+/* --- Tree Lines and Indentation --- */
+#file-tree .list-group {
+    padding-left: 11px;
+}
+
+#file-tree .list-group .list-group-item {
+    padding-left: 25px;
+    position: relative;
+}
+
+/* Vertical line */
+#file-tree .list-group .list-group-item::before {
+    content: '';
+    position: absolute;
+    left: 1.25rem;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(200, 211, 222, 0.2);
+}
+
+/* Horizontal line */
+#file-tree .list-group .list-group-item::after {
+    content: '';
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1px;
+    background-color: rgba(200, 211, 222, 0.2);
+}
+
+/* Shorten vertical line for the last item */
+#file-tree .list-group .list-group-item:last-child::before {
+    height: 50%;
+}
+
+#file-tree i {
+    margin-right: 4px;
+    vertical-align: middle;
+    /* Better icon alignment */
+    font-size: 17px;
+    /* Slightly larger icons */
+}
+
+
+.folder-toggle::before {
+    content: "+";
+    margin-right: 3px;
+    font-size: 15px;
+    display: inline-block;
+    transition: transform 0.15s ease-in-out;
+    vertical-align: middle;
+    /* Better icon alignment */
+}
+
+.folder-toggle.open::before {
+    content: "-";
+    font-size: 17px;
+    transform: rotate(180deg);
+}
+
+#main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Fallback for browsers that do not support dvh */
+    height: 100dvh;
+    min-width: 0;
+    /* Allow the main editor area to shrink dynamically */
+    overflow: hidden;
+    /* Prevent visual overflow during drag resizing */
+}
+
+#top-bar {
+    padding: 0;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+    max-width: 100%;
+    background-color: #06111e;
+    border-bottom: 1px solid #112236;
+}
+
+#top-bar .nav-tabs {
+    border-bottom: 2px solid #07111d;
+
+}
+
+.ace_tabs {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    flex-grow: 1;
+    scroll-behavior: smooth;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+
+.ace_tab {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    color: #94a3b8;
+    background-color: #0d213a;
+    border-right: 1px solid #112236;
+    border-top: 2px solid transparent;
+    min-width: 100px;
+    max-width: 160px;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    transition: all 0.15s ease;
+}
+
+.ace_tab:hover {
+    background-color: #0b1c30;
+    color: #cbd5e1;
+}
+
+.ace_tab.active {
+    background-color: #274e78;
+    color: #ffffff;
+    font-weight: 500;
+    border-top: 2px solid #6366f1;
+    z-index: 5;
+}
+
+/* Remove the old bottom border line generator */
+.ace_tab.active:before {
+    display: none;
+}
+
+.ace_tab.dragging {
+    opacity: 0.6;
+    background: #1e293b;
+    border-top-color: #3b82f6;
+}
+
+.ace_tab .tab-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.ace_tab .tab-close {
+    font-size: 15px;
+    line-height: 1;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #64748b;
+    transition: all 0.15s ease;
+    opacity: 0.9;
+}
+
+.ace_tab:hover .tab-close {
+    color: rgb(211, 49, 49);
+}
+
+.ace_tab .tab-close:hover {
+    background-color: rgb(218, 37, 37);
+    color: #ffffff !important;
+}
+
+.tab-scroller {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 28px;
+    z-index: 20;
+    background-color: #081424;
+    border: none;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+}
+
+.tab-scroller:hover {
+    background-color: #0b1c30;
+    color: #94a3b8;
+}
+
+.scrolling-active>.tab-scroller {
+    display: flex;
+}
+
+.tab-scroller:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.tab-scroller i {
+    filter: invert(80%) hue-rotate(95deg);
+}
+
+#tab-scroll-left {
+    border-right: 1px solid #112236;
+
+}
+
+#tab-scroll-right {
+    border-left: 1px solid #112236;
+}
+
+#editor-area {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0;
+    /* Remove padding as Ace handles its own */
+}
+
+#editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*
+ * Ace Editor Theme Fix:
+ * Some themes or default settings can cause the inner content area of Ace
+ * to have a white background, which overrides the theme's intended background.
+ * This rule ensures that the content area is transparent, allowing the
+ * theme's background (set on the main #editor container) to be visible.
+ */
+#editor .ace_content {
+    background-color: transparent;
+}
+
+/* --- Editor Action Buttons --- */
+#editor-actions {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    z-index: 10;
+    white-space: nowrap;
+    display: flex;
+}
+
+#editor-actions .btn {
+    margin-left: 0.5rem;
+    display: inline-block;
+}
