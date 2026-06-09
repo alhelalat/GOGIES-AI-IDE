@@ -1,0 +1,1791 @@
+/*!
+ * File Icon Vectors 1.0 (https://github.com/dmhendricks/file-icon-vectors)
+ * Copyright 2018 Daniel M. Hendricks (https://www.danhendricks.com)
+ * Licensed under MIT (https://github.com/dmhendricks/file-icon-vectors/blob/master/LICENSE)
+ */
+.fiv-background, .ic {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.ic-md {
+  font-size: 2.25em;
+}
+
+.ic-lg {
+  font-size: 3.5em;
+}
+
+.ic-xl {
+  font-size: 4.75em;
+}
+
+.ic {
+  position: relative;
+  display: inline-block;
+  line-height: 1em;
+  width: 1em;
+}
+
+.ic:before {
+  content: '\00a0';
+}
+.ic.ic-folder {
+  background-image: url("svg/folder.svg");
+}
+.ic.ic-folder-open {
+  background-image: url("svg/folder-open.svg");
+}
+.ic.ic-folder-network {
+  background-image: url("svg/folder-network.svg");
+}
+
+.ic.ic-file-earmark-plus {
+  background-image: url("svg/file-earmark-plus.svg");
+}
+.ic.ic-info-circle {
+  background-image: url("svg/info-circle.svg");
+}
+.ic.ic-box-arrow-in-down-right {
+  background-image: url("svg/box-arrow-in-down-right.svg");
+}
+.ic.ic-pencil-square {
+  background-image: url("svg/pencil-square.svg");
+}
+.ic.ic-floppy {
+  background-image: url("svg/floppy.svg");
+}
+.ic.ic-box-arrow-right {
+  background-image: url("svg/box-arrow-right.svg");
+}
+.ic.ic-shield-lock {
+  background-image: url("svg/shield-lock.svg");
+}
+.ic.ic-plus-circle {
+  background-image: url("svg/plus-circle.svg");
+}
+
+
+
+
+
+.ic.ic-trash {
+  background-image: url("svg/trash.svg");
+}
+.ic.ic-arrow-clockwise {
+  background-image: url("svg/arrow-clockwise.svg");
+}
+.ic.ic-upload {
+  background-image: url("svg/upload.svg");
+}
+.ic.ic-chevron-right {
+  background-image: url("svg/chevron-right.svg");
+}
+.ic.ic-chevron-left {
+  background-image: url("svg/chevron-left.svg");
+}
+.ic.ic-people-fill {
+  background-image: url("svg/people-fill.svg");
+}
+.ic.ic-gear-fill {
+  background-image: url("svg/gear-fill.svg");
+}
+.ic.ic-copy {
+  background-image: url("svg/copy.svg");
+}
+.ic.ic-3g2 {
+  background-image: url("svg/3g2.svg");
+}
+
+.ic.ic-3ga {
+  background-image: url("svg/3ga.svg");
+}
+
+.ic.ic-3gp {
+  background-image: url("svg/3gp.svg");
+}
+
+.ic.ic-7z {
+  background-image: url("svg/7z.svg");
+}
+
+.ic.ic-aa {
+  background-image: url("svg/aa.svg");
+}
+
+.ic.ic-aac {
+  background-image: url("svg/aac.svg");
+}
+
+.ic.ic-ac {
+  background-image: url("svg/ac.svg");
+}
+
+.ic.ic-accdb {
+  background-image: url("svg/accdb.svg");
+}
+
+.ic.ic-accdt {
+  background-image: url("svg/accdt.svg");
+}
+
+.ic.ic-ace {
+  background-image: url("svg/ace.svg");
+}
+
+.ic.ic-adn {
+  background-image: url("svg/adn.svg");
+}
+
+.ic.ic-ai {
+  background-image: url("svg/ai.svg");
+}
+
+.ic.ic-aif {
+  background-image: url("svg/aif.svg");
+}
+
+.ic.ic-aifc {
+  background-image: url("svg/aifc.svg");
+}
+
+.ic.ic-aiff {
+  background-image: url("svg/aiff.svg");
+}
+
+.ic.ic-ait {
+  background-image: url("svg/ait.svg");
+}
+
+.ic.ic-amr {
+  background-image: url("svg/amr.svg");
+}
+
+.ic.ic-ani {
+  background-image: url("svg/ani.svg");
+}
+
+.ic.ic-apk {
+  background-image: url("svg/apk.svg");
+}
+
+.ic.ic-app {
+  background-image: url("svg/app.svg");
+}
+
+.ic.ic-applescript {
+  background-image: url("svg/applescript.svg");
+}
+
+.ic.ic-asax {
+  background-image: url("svg/asax.svg");
+}
+
+.ic.ic-asc {
+  background-image: url("svg/asc.svg");
+}
+
+.ic.ic-ascx {
+  background-image: url("svg/ascx.svg");
+}
+
+.ic.ic-asf {
+  background-image: url("svg/asf.svg");
+}
+
+.ic.ic-ash {
+  background-image: url("svg/ash.svg");
+}
+
+.ic.ic-ashx {
+  background-image: url("svg/ashx.svg");
+}
+
+.ic.ic-asm {
+  background-image: url("svg/asm.svg");
+}
+
+.ic.ic-asmx {
+  background-image: url("svg/asmx.svg");
+}
+
+.ic.ic-asp {
+  background-image: url("svg/asp.svg");
+}
+
+.ic.ic-aspx {
+  background-image: url("svg/aspx.svg");
+}
+
+.ic.ic-asx {
+  background-image: url("svg/asx.svg");
+}
+
+.ic.ic-au {
+  background-image: url("svg/au.svg");
+}
+
+.ic.ic-aup {
+  background-image: url("svg/aup.svg");
+}
+
+.ic.ic-avi {
+  background-image: url("svg/avi.svg");
+}
+
+.ic.ic-axd {
+  background-image: url("svg/axd.svg");
+}
+
+.ic.ic-aze {
+  background-image: url("svg/aze.svg");
+}
+
+.ic.ic-bak {
+  background-image: url("svg/bak.svg");
+}
+
+.ic.ic-bash {
+  background-image: url("svg/bash.svg");
+}
+
+.ic.ic-bat {
+  background-image: url("svg/bat.svg");
+}
+
+.ic.ic-bin {
+  background-image: url("svg/bin.svg");
+}
+
+.ic.ic-blank {
+  background-image: url("svg/blank.svg");
+}
+
+.ic.ic-bmp {
+  background-image: url("svg/bmp.svg");
+}
+
+.ic.ic-bowerrc {
+  background-image: url("svg/bowerrc.svg");
+}
+
+.ic.ic-bpg {
+  background-image: url("svg/bpg.svg");
+}
+
+.ic.ic-browser {
+  background-image: url("svg/browser.svg");
+}
+
+.ic.ic-bz2 {
+  background-image: url("svg/bz2.svg");
+}
+
+.ic.ic-bzempty {
+  background-image: url("svg/bzempty.svg");
+}
+
+.ic.ic-c {
+  background-image: url("svg/c.svg");
+}
+
+.ic.ic-cab {
+  background-image: url("svg/cab.svg");
+}
+
+.ic.ic-cad {
+  background-image: url("svg/cad.svg");
+}
+
+.ic.ic-caf {
+  background-image: url("svg/caf.svg");
+}
+
+.ic.ic-cal {
+  background-image: url("svg/cal.svg");
+}
+
+.ic.ic-cd {
+  background-image: url("svg/cd.svg");
+}
+
+.ic.ic-cdda {
+  background-image: url("svg/cdda.svg");
+}
+
+.ic.ic-cer {
+  background-image: url("svg/cer.svg");
+}
+
+.ic.ic-cfg {
+  background-image: url("svg/cfg.svg");
+}
+
+.ic.ic-cfm {
+  background-image: url("svg/cfm.svg");
+}
+
+.ic.ic-cfml {
+  background-image: url("svg/cfml.svg");
+}
+
+.ic.ic-cgi {
+  background-image: url("svg/cgi.svg");
+}
+
+.ic.ic-chm {
+  background-image: url("svg/chm.svg");
+}
+
+.ic.ic-class {
+  background-image: url("svg/class.svg");
+}
+
+.ic.ic-cmd {
+  background-image: url("svg/cmd.svg");
+}
+
+.ic.ic-code-workspace {
+  background-image: url("svg/code-workspace.svg");
+}
+
+.ic.ic-codekit {
+  background-image: url("svg/codekit.svg");
+}
+
+.ic.ic-codekit3 {
+  background-image: url("svg/codekit3.svg");
+}
+
+.ic.ic-coffee {
+  background-image: url("svg/coffee.svg");
+}
+
+.ic.ic-coffeelintignore {
+  background-image: url("svg/coffeelintignore.svg");
+}
+
+.ic.ic-com {
+  background-image: url("svg/com.svg");
+}
+
+.ic.ic-compile {
+  background-image: url("svg/compile.svg");
+}
+
+.ic.ic-conf {
+  background-image: url("svg/conf.svg");
+}
+
+.ic.ic-config {
+  background-image: url("svg/config.svg");
+}
+
+.ic.ic-cpp {
+  background-image: url("svg/cpp.svg");
+}
+
+.ic.ic-cptx {
+  background-image: url("svg/cptx.svg");
+}
+
+.ic.ic-cr2 {
+  background-image: url("svg/cr2.svg");
+}
+
+.ic.ic-crdownload {
+  background-image: url("svg/crdownload.svg");
+}
+
+.ic.ic-crt {
+  background-image: url("svg/crt.svg");
+}
+
+.ic.ic-crypt {
+  background-image: url("svg/crypt.svg");
+}
+
+.ic.ic-cs {
+  background-image: url("svg/cs.svg");
+}
+
+.ic.ic-csh {
+  background-image: url("svg/csh.svg");
+}
+
+.ic.ic-cson {
+  background-image: url("svg/cson.svg");
+}
+
+.ic.ic-csproj {
+  background-image: url("svg/csproj.svg");
+}
+
+.ic.ic-css {
+  background-image: url("svg/css.svg");
+}
+
+.ic.ic-csv {
+  background-image: url("svg/csv.svg");
+}
+
+.ic.ic-cue {
+  background-image: url("svg/cue.svg");
+}
+
+.ic.ic-cur {
+  background-image: url("svg/cur.svg");
+}
+
+.ic.ic-dart {
+  background-image: url("svg/dart.svg");
+}
+
+.ic.ic-dat {
+  background-image: url("svg/dat.svg");
+}
+
+.ic.ic-data {
+  background-image: url("svg/data.svg");
+}
+
+.ic.ic-db {
+  background-image: url("svg/db.svg");
+}
+
+.ic.ic-dbf {
+  background-image: url("svg/dbf.svg");
+}
+
+.ic.ic-deb {
+  background-image: url("svg/deb.svg");
+}
+
+.ic.ic-default {
+  background-image: url("svg/default.svg");
+}
+
+.ic.ic-dgn {
+  background-image: url("svg/dgn.svg");
+}
+
+.ic.ic-dist {
+  background-image: url("svg/dist.svg");
+}
+
+.ic.ic-diz {
+  background-image: url("svg/diz.svg");
+}
+
+.ic.ic-dll {
+  background-image: url("svg/dll.svg");
+}
+
+.ic.ic-dmg {
+  background-image: url("svg/dmg.svg");
+}
+
+.ic.ic-dng {
+  background-image: url("svg/dng.svg");
+}
+
+.ic.ic-doc {
+  background-image: url("svg/doc.svg");
+}
+
+.ic.ic-docb {
+  background-image: url("svg/docb.svg");
+}
+
+.ic.ic-docm {
+  background-image: url("svg/docm.svg");
+}
+
+.ic.ic-docx {
+  background-image: url("svg/docx.svg");
+}
+
+.ic.ic-dot {
+  background-image: url("svg/dot.svg");
+}
+
+.ic.ic-dotm {
+  background-image: url("svg/dotm.svg");
+}
+
+.ic.ic-dotx {
+  background-image: url("svg/dotx.svg");
+}
+
+.ic.ic-download {
+  background-image: url("svg/download.svg");
+}
+
+.ic.ic-dpj {
+  background-image: url("svg/dpj.svg");
+}
+
+.ic.ic-ds_store {
+  background-image: url("svg/ds_store.svg");
+}
+
+.ic.ic-dsn {
+  background-image: url("svg/dsn.svg");
+}
+
+.ic.ic-dst {
+  background-image: url("svg/dst.svg");
+}
+
+.ic.ic-dtd {
+  background-image: url("svg/dtd.svg");
+}
+
+.ic.ic-dwg {
+  background-image: url("svg/dwg.svg");
+}
+
+.ic.ic-dxf {
+  background-image: url("svg/dxf.svg");
+}
+
+.ic.ic-editorconfig {
+  background-image: url("svg/editorconfig.svg");
+}
+
+.ic.ic-el {
+  background-image: url("svg/el.svg");
+}
+
+.ic.ic-elf {
+  background-image: url("svg/elf.svg");
+}
+
+.ic.ic-eml {
+  background-image: url("svg/eml.svg");
+}
+
+.ic.ic-enc {
+  background-image: url("svg/enc.svg");
+}
+
+.ic.ic-eot {
+  background-image: url("svg/eot.svg");
+}
+
+.ic.ic-eps {
+  background-image: url("svg/eps.svg");
+}
+
+.ic.ic-epub {
+  background-image: url("svg/epub.svg");
+}
+
+.ic.ic-eslintignore {
+  background-image: url("svg/eslintignore.svg");
+}
+
+.ic.ic-exe {
+  background-image: url("svg/exe.svg");
+}
+
+.ic.ic-f4v {
+  background-image: url("svg/f4v.svg");
+}
+
+.ic.ic-fax {
+  background-image: url("svg/fax.svg");
+}
+
+.ic.ic-fb2 {
+  background-image: url("svg/fb2.svg");
+}
+
+.ic.ic-fla {
+  background-image: url("svg/fla.svg");
+}
+
+.ic.ic-flac {
+  background-image: url("svg/flac.svg");
+}
+
+.ic.ic-flv {
+  background-image: url("svg/flv.svg");
+}
+
+.ic.ic-fnt {
+  background-image: url("svg/fnt.svg");
+}
+
+.ic.ic-fon {
+  background-image: url("svg/fon.svg");
+}
+
+.ic.ic-gadget {
+  background-image: url("svg/gadget.svg");
+}
+
+.ic.ic-gdp {
+  background-image: url("svg/gdp.svg");
+}
+
+.ic.ic-gem {
+  background-image: url("svg/gem.svg");
+}
+
+.ic.ic-gif {
+  background-image: url("svg/gif.svg");
+}
+
+.ic.ic-gitattributes {
+  background-image: url("svg/gitattributes.svg");
+}
+
+.ic.ic-gitignore {
+  background-image: url("svg/gitignore.svg");
+}
+
+.ic.ic-go {
+  background-image: url("svg/go.svg");
+}
+
+.ic.ic-gpg {
+  background-image: url("svg/gpg.svg");
+}
+
+.ic.ic-gpl {
+  background-image: url("svg/gpl.svg");
+}
+
+.ic.ic-gradle {
+  background-image: url("svg/gradle.svg");
+}
+
+.ic.ic-gz {
+  background-image: url("svg/gz.svg");
+}
+
+.ic.ic-h {
+  background-image: url("svg/h.svg");
+}
+
+.ic.ic-handlebars {
+  background-image: url("svg/handlebars.svg");
+}
+
+.ic.ic-hbs {
+  background-image: url("svg/hbs.svg");
+}
+
+.ic.ic-heic {
+  background-image: url("svg/heic.svg");
+}
+
+.ic.ic-hlp {
+  background-image: url("svg/hlp.svg");
+}
+
+.ic.ic-hs {
+  background-image: url("svg/hs.svg");
+}
+
+.ic.ic-hsl {
+  background-image: url("svg/hsl.svg");
+}
+
+.ic.ic-htm {
+  background-image: url("svg/htm.svg");
+}
+
+.ic.ic-html {
+  background-image: url("svg/html.svg");
+}
+
+.ic.ic-ibooks {
+  background-image: url("svg/ibooks.svg");
+}
+
+.ic.ic-icma {
+  background-image: url("svg/icma.svg");
+}
+
+.ic.ic-icml {
+  background-image: url("svg/icml.svg");
+}
+
+.ic.ic-icns {
+  background-image: url("svg/icns.svg");
+}
+
+.ic.ic-ico {
+  background-image: url("svg/ico.svg");
+}
+
+.ic.ic-ics {
+  background-image: url("svg/ics.svg");
+}
+
+.ic.ic-idx {
+  background-image: url("svg/idx.svg");
+}
+
+.ic.ic-iff {
+  background-image: url("svg/iff.svg");
+}
+
+.ic.ic-ifo {
+  background-image: url("svg/ifo.svg");
+}
+
+.ic.ic-image {
+  background-image: url("svg/image.svg");
+}
+
+.ic.ic-img {
+  background-image: url("svg/img.svg");
+}
+
+.ic.ic-iml {
+  background-image: url("svg/iml.svg");
+}
+
+.ic.ic-in {
+  background-image: url("svg/in.svg");
+}
+
+.ic.ic-inc {
+  background-image: url("svg/inc.svg");
+}
+
+.ic.ic-indd {
+  background-image: url("svg/indd.svg");
+}
+
+.ic.ic-inf {
+  background-image: url("svg/inf.svg");
+}
+
+.ic.ic-info {
+  background-image: url("svg/info.svg");
+}
+
+.ic.ic-ini {
+  background-image: url("svg/ini.svg");
+}
+
+.ic.ic-inv {
+  background-image: url("svg/inv.svg");
+}
+
+.ic.ic-iso {
+  background-image: url("svg/iso.svg");
+}
+
+.ic.ic-j2 {
+  background-image: url("svg/j2.svg");
+}
+
+.ic.ic-jar {
+  background-image: url("svg/jar.svg");
+}
+
+.ic.ic-java {
+  background-image: url("svg/java.svg");
+}
+
+.ic.ic-jpe {
+  background-image: url("svg/jpe.svg");
+}
+
+.ic.ic-jpeg {
+  background-image: url("svg/jpeg.svg");
+}
+
+.ic.ic-jpg {
+  background-image: url("svg/jpg.svg");
+}
+
+.ic.ic-js {
+  background-image: url("svg/js.svg");
+}
+
+.ic.ic-json {
+  background-image: url("svg/json.svg");
+}
+
+.ic.ic-jsp {
+  background-image: url("svg/jsp.svg");
+}
+
+.ic.ic-jsx {
+  background-image: url("svg/jsx.svg");
+}
+
+.ic.ic-key {
+  background-image: url("svg/key.svg");
+}
+
+.ic.ic-kf8 {
+  background-image: url("svg/kf8.svg");
+}
+
+.ic.ic-kit {
+  background-image: url("svg/kit.svg");
+}
+
+.ic.ic-kmk {
+  background-image: url("svg/kmk.svg");
+}
+
+.ic.ic-ksh {
+  background-image: url("svg/ksh.svg");
+}
+
+.ic.ic-kt {
+  background-image: url("svg/kt.svg");
+}
+
+.ic.ic-kts {
+  background-image: url("svg/kts.svg");
+}
+
+.ic.ic-kup {
+  background-image: url("svg/kup.svg");
+}
+
+.ic.ic-less {
+  background-image: url("svg/less.svg");
+}
+
+.ic.ic-lex {
+  background-image: url("svg/lex.svg");
+}
+
+.ic.ic-licx {
+  background-image: url("svg/licx.svg");
+}
+
+.ic.ic-lisp {
+  background-image: url("svg/lisp.svg");
+}
+
+.ic.ic-list {
+  background-image: url("svg/list.svg");
+}
+
+.ic.ic-lit {
+  background-image: url("svg/lit.svg");
+}
+
+.ic.ic-lnk {
+  background-image: url("svg/lnk.svg");
+}
+
+.ic.ic-lock {
+  background-image: url("svg/lock.svg");
+}
+
+.ic.ic-log {
+  background-image: url("svg/log.svg");
+}
+
+.ic.ic-lua {
+  background-image: url("svg/lua.svg");
+}
+
+.ic.ic-m {
+  background-image: url("svg/m.svg");
+}
+
+.ic.ic-m2v {
+  background-image: url("svg/m2v.svg");
+}
+
+.ic.ic-m3u {
+  background-image: url("svg/m3u.svg");
+}
+
+.ic.ic-m3u8 {
+  background-image: url("svg/m3u8.svg");
+}
+
+.ic.ic-m4 {
+  background-image: url("svg/m4.svg");
+}
+
+.ic.ic-m4a {
+  background-image: url("svg/m4a.svg");
+}
+
+.ic.ic-m4r {
+  background-image: url("svg/m4r.svg");
+}
+
+.ic.ic-m4v {
+  background-image: url("svg/m4v.svg");
+}
+
+.ic.ic-map {
+  background-image: url("svg/map.svg");
+}
+
+.ic.ic-master {
+  background-image: url("svg/master.svg");
+}
+
+.ic.ic-mc {
+  background-image: url("svg/mc.svg");
+}
+
+.ic.ic-md {
+  background-image: url("svg/md.svg");
+}
+
+.ic.ic-mdb {
+  background-image: url("svg/mdb.svg");
+}
+
+.ic.ic-mdf {
+  background-image: url("svg/mdf.svg");
+}
+
+.ic.ic-me {
+  background-image: url("svg/me.svg");
+}
+
+.ic.ic-mi {
+  background-image: url("svg/mi.svg");
+}
+
+.ic.ic-mid {
+  background-image: url("svg/mid.svg");
+}
+
+.ic.ic-midi {
+  background-image: url("svg/midi.svg");
+}
+
+.ic.ic-mk {
+  background-image: url("svg/mk.svg");
+}
+
+.ic.ic-mkv {
+  background-image: url("svg/mkv.svg");
+}
+
+.ic.ic-mm {
+  background-image: url("svg/mm.svg");
+}
+
+.ic.ic-mng {
+  background-image: url("svg/mng.svg");
+}
+
+.ic.ic-mo {
+  background-image: url("svg/mo.svg");
+}
+
+.ic.ic-mobi {
+  background-image: url("svg/mobi.svg");
+}
+
+.ic.ic-mod {
+  background-image: url("svg/mod.svg");
+}
+
+.ic.ic-mov {
+  background-image: url("svg/mov.svg");
+}
+
+.ic.ic-mp2 {
+  background-image: url("svg/mp2.svg");
+}
+
+.ic.ic-mp3 {
+  background-image: url("svg/mp3.svg");
+}
+
+.ic.ic-mp4 {
+  background-image: url("svg/mp4.svg");
+}
+
+.ic.ic-mpa {
+  background-image: url("svg/mpa.svg");
+}
+
+.ic.ic-mpd {
+  background-image: url("svg/mpd.svg");
+}
+
+.ic.ic-mpe {
+  background-image: url("svg/mpe.svg");
+}
+
+.ic.ic-mpeg {
+  background-image: url("svg/mpeg.svg");
+}
+
+.ic.ic-mpg {
+  background-image: url("svg/mpg.svg");
+}
+
+.ic.ic-mpga {
+  background-image: url("svg/mpga.svg");
+}
+
+.ic.ic-mpp {
+  background-image: url("svg/mpp.svg");
+}
+
+.ic.ic-mpt {
+  background-image: url("svg/mpt.svg");
+}
+
+.ic.ic-msg {
+  background-image: url("svg/msg.svg");
+}
+
+.ic.ic-msi {
+  background-image: url("svg/msi.svg");
+}
+
+.ic.ic-msu {
+  background-image: url("svg/msu.svg");
+}
+
+.ic.ic-nef {
+  background-image: url("svg/nef.svg");
+}
+
+.ic.ic-nes {
+  background-image: url("svg/nes.svg");
+}
+
+.ic.ic-nfo {
+  background-image: url("svg/nfo.svg");
+}
+
+.ic.ic-nix {
+  background-image: url("svg/nix.svg");
+}
+
+.ic.ic-npmignore {
+  background-image: url("svg/npmignore.svg");
+}
+
+.ic.ic-ocx {
+  background-image: url("svg/ocx.svg");
+}
+
+.ic.ic-odb {
+  background-image: url("svg/odb.svg");
+}
+
+.ic.ic-ods {
+  background-image: url("svg/ods.svg");
+}
+
+.ic.ic-odt {
+  background-image: url("svg/odt.svg");
+}
+
+.ic.ic-ogg {
+  background-image: url("svg/ogg.svg");
+}
+
+.ic.ic-ogv {
+  background-image: url("svg/ogv.svg");
+}
+
+.ic.ic-one {
+  background-image: url("svg/one.svg");
+}
+
+.ic.ic-ost {
+  background-image: url("svg/ost.svg");
+}
+
+.ic.ic-otf {
+  background-image: url("svg/otf.svg");
+}
+
+.ic.ic-ott {
+  background-image: url("svg/ott.svg");
+}
+
+.ic.ic-ova {
+  background-image: url("svg/ova.svg");
+}
+
+.ic.ic-ovf {
+  background-image: url("svg/ovf.svg");
+}
+
+.ic.ic-p12 {
+  background-image: url("svg/p12.svg");
+}
+
+.ic.ic-p7b {
+  background-image: url("svg/p7b.svg");
+}
+
+.ic.ic-pages {
+  background-image: url("svg/pages.svg");
+}
+
+.ic.ic-part {
+  background-image: url("svg/part.svg");
+}
+
+.ic.ic-partial {
+  background-image: url("svg/partial.svg");
+}
+
+.ic.ic-pbix {
+  background-image: url("svg/pbix.svg");
+}
+
+.ic.ic-pcd {
+  background-image: url("svg/pcd.svg");
+}
+
+.ic.ic-pdb {
+  background-image: url("svg/pdb.svg");
+}
+
+.ic.ic-pdf {
+  background-image: url("svg/pdf.svg");
+}
+
+.ic.ic-pem {
+  background-image: url("svg/pem.svg");
+}
+
+.ic.ic-pfx {
+  background-image: url("svg/pfx.svg");
+}
+
+.ic.ic-pgp {
+  background-image: url("svg/pgp.svg");
+}
+
+.ic.ic-ph {
+  background-image: url("svg/ph.svg");
+}
+
+.ic.ic-phar {
+  background-image: url("svg/phar.svg");
+}
+
+.ic.ic-php {
+  background-image: url("svg/php.svg");
+}
+
+.ic.ic-pid {
+  background-image: url("svg/pid.svg");
+}
+
+.ic.ic-pkg {
+  background-image: url("svg/pkg.svg");
+}
+
+.ic.ic-pl {
+  background-image: url("svg/pl.svg");
+}
+
+.ic.ic-plist {
+  background-image: url("svg/plist.svg");
+}
+
+.ic.ic-pm {
+  background-image: url("svg/pm.svg");
+}
+
+.ic.ic-png {
+  background-image: url("svg/png.svg");
+}
+
+.ic.ic-po {
+  background-image: url("svg/po.svg");
+}
+
+.ic.ic-pom {
+  background-image: url("svg/pom.svg");
+}
+
+.ic.ic-pot {
+  background-image: url("svg/pot.svg");
+}
+
+.ic.ic-potx {
+  background-image: url("svg/potx.svg");
+}
+
+.ic.ic-ppk {
+  background-image: url("svg/ppk.svg");
+}
+
+.ic.ic-pps {
+  background-image: url("svg/pps.svg");
+}
+
+.ic.ic-ppsx {
+  background-image: url("svg/ppsx.svg");
+}
+
+.ic.ic-ppt {
+  background-image: url("svg/ppt.svg");
+}
+
+.ic.ic-pptm {
+  background-image: url("svg/pptm.svg");
+}
+
+.ic.ic-pptx {
+  background-image: url("svg/pptx.svg");
+}
+
+.ic.ic-prop {
+  background-image: url("svg/prop.svg");
+}
+
+.ic.ic-ps {
+  background-image: url("svg/ps.svg");
+}
+
+.ic.ic-ps1 {
+  background-image: url("svg/ps1.svg");
+}
+
+.ic.ic-psd {
+  background-image: url("svg/psd.svg");
+}
+
+.ic.ic-psp {
+  background-image: url("svg/psp.svg");
+}
+
+.ic.ic-pst {
+  background-image: url("svg/pst.svg");
+}
+
+.ic.ic-pub {
+  background-image: url("svg/pub.svg");
+}
+
+.ic.ic-py {
+  background-image: url("svg/py.svg");
+}
+
+.ic.ic-pyc {
+  background-image: url("svg/pyc.svg");
+}
+
+.ic.ic-qt {
+  background-image: url("svg/qt.svg");
+}
+
+.ic.ic-ra {
+  background-image: url("svg/ra.svg");
+}
+
+.ic.ic-ram {
+  background-image: url("svg/ram.svg");
+}
+
+.ic.ic-rar {
+  background-image: url("svg/rar.svg");
+}
+
+.ic.ic-raw {
+  background-image: url("svg/raw.svg");
+}
+
+.ic.ic-rb {
+  background-image: url("svg/rb.svg");
+}
+
+.ic.ic-rdf {
+  background-image: url("svg/rdf.svg");
+}
+
+.ic.ic-rdl {
+  background-image: url("svg/rdl.svg");
+}
+
+.ic.ic-reg {
+  background-image: url("svg/reg.svg");
+}
+
+.ic.ic-resx {
+  background-image: url("svg/resx.svg");
+}
+
+.ic.ic-retry {
+  background-image: url("svg/retry.svg");
+}
+
+.ic.ic-rm {
+  background-image: url("svg/rm.svg");
+}
+
+.ic.ic-rom {
+  background-image: url("svg/rom.svg");
+}
+
+.ic.ic-rpm {
+  background-image: url("svg/rpm.svg");
+}
+
+.ic.ic-rpt {
+  background-image: url("svg/rpt.svg");
+}
+
+.ic.ic-rsa {
+  background-image: url("svg/rsa.svg");
+}
+
+.ic.ic-rss {
+  background-image: url("svg/rss.svg");
+}
+
+.ic.ic-rst {
+  background-image: url("svg/rst.svg");
+}
+
+.ic.ic-rtf {
+  background-image: url("svg/rtf.svg");
+}
+
+.ic.ic-ru {
+  background-image: url("svg/ru.svg");
+}
+
+.ic.ic-rub {
+  background-image: url("svg/rub.svg");
+}
+
+.ic.ic-sass {
+  background-image: url("svg/sass.svg");
+}
+
+.ic.ic-save {
+  background-image: url("svg/save.svg");
+}
+
+.ic.ic-scss {
+  background-image: url("svg/scss.svg");
+}
+
+.ic.ic-sdf {
+  background-image: url("svg/sdf.svg");
+}
+
+.ic.ic-sed {
+  background-image: url("svg/sed.svg");
+}
+
+.ic.ic-sesx {
+  background-image: url("svg/sesx.svg");
+}
+
+.ic.ic-sh {
+  background-image: url("svg/sh.svg");
+}
+
+.ic.ic-sit {
+  background-image: url("svg/sit.svg");
+}
+
+.ic.ic-sitemap {
+  background-image: url("svg/sitemap.svg");
+}
+
+.ic.ic-sketch {
+  background-image: url("svg/sketch.svg");
+}
+
+.ic.ic-skin {
+  background-image: url("svg/skin.svg");
+}
+
+.ic.ic-sldm {
+  background-image: url("svg/sldm.svg");
+}
+
+.ic.ic-sldx {
+  background-image: url("svg/sldx.svg");
+}
+
+.ic.ic-sln {
+  background-image: url("svg/sln.svg");
+}
+
+.ic.ic-sol {
+  background-image: url("svg/sol.svg");
+}
+
+.ic.ic-sphinx {
+  background-image: url("svg/sphinx.svg");
+}
+
+.ic.ic-sql {
+  background-image: url("svg/sql.svg");
+}
+
+.ic.ic-sqlite {
+  background-image: url("svg/sqlite.svg");
+}
+
+.ic.ic-srt {
+  background-image: url("svg/srt.svg");
+}
+
+.ic.ic-step {
+  background-image: url("svg/step.svg");
+}
+
+.ic.ic-stl {
+  background-image: url("svg/stl.svg");
+}
+
+.ic.ic-sub {
+  background-image: url("svg/sub.svg");
+}
+
+.ic.ic-svg {
+  background-image: url("svg/svg.svg");
+}
+
+.ic.ic-swd {
+  background-image: url("svg/swd.svg");
+}
+
+.ic.ic-swf {
+  background-image: url("svg/swf.svg");
+}
+
+.ic.ic-swift {
+  background-image: url("svg/swift.svg");
+}
+
+.ic.ic-swp {
+  background-image: url("svg/swp.svg");
+}
+
+.ic.ic-sys {
+  background-image: url("svg/sys.svg");
+}
+
+.ic.ic-tar {
+  background-image: url("svg/tar.svg");
+}
+
+.ic.ic-tax {
+  background-image: url("svg/tax.svg");
+}
+
+.ic.ic-tcsh {
+  background-image: url("svg/tcsh.svg");
+}
+
+.ic.ic-tex {
+  background-image: url("svg/tex.svg");
+}
+
+.ic.ic-tfignore {
+  background-image: url("svg/tfignore.svg");
+}
+
+.ic.ic-tga {
+  background-image: url("svg/tga.svg");
+}
+
+.ic.ic-tgz {
+  background-image: url("svg/tgz.svg");
+}
+
+.ic.ic-tif {
+  background-image: url("svg/tif.svg");
+}
+
+.ic.ic-tiff {
+  background-image: url("svg/tiff.svg");
+}
+
+.ic.ic-tmp {
+  background-image: url("svg/tmp.svg");
+}
+
+.ic.ic-tmx {
+  background-image: url("svg/tmx.svg");
+}
+
+.ic.ic-torrent {
+  background-image: url("svg/torrent.svg");
+}
+
+.ic.ic-tpl {
+  background-image: url("svg/tpl.svg");
+}
+
+.ic.ic-ts {
+  background-image: url("svg/ts.svg");
+}
+
+.ic.ic-tsv {
+  background-image: url("svg/tsv.svg");
+}
+
+.ic.ic-tsx {
+  background-image: url("svg/tsx.svg");
+}
+
+.ic.ic-ttf {
+  background-image: url("svg/ttf.svg");
+}
+
+.ic.ic-twig {
+  background-image: url("svg/twig.svg");
+}
+
+.ic.ic-txt {
+  background-image: url("svg/txt.svg");
+}
+
+.ic.ic-udf {
+  background-image: url("svg/udf.svg");
+}
+
+.ic.ic-vb {
+  background-image: url("svg/vb.svg");
+}
+
+.ic.ic-vbproj {
+  background-image: url("svg/vbproj.svg");
+}
+
+.ic.ic-vbs {
+  background-image: url("svg/vbs.svg");
+}
+
+.ic.ic-vcd {
+  background-image: url("svg/vcd.svg");
+}
+
+.ic.ic-vcf {
+  background-image: url("svg/vcf.svg");
+}
+
+.ic.ic-vcs {
+  background-image: url("svg/vcs.svg");
+}
+
+.ic.ic-vdi {
+  background-image: url("svg/vdi.svg");
+}
+
+.ic.ic-vdx {
+  background-image: url("svg/vdx.svg");
+}
+
+.ic.ic-vmdk {
+  background-image: url("svg/vmdk.svg");
+}
+
+.ic.ic-vob {
+  background-image: url("svg/vob.svg");
+}
+
+.ic.ic-vox {
+  background-image: url("svg/vox.svg");
+}
+
+.ic.ic-vscodeignore {
+  background-image: url("svg/vscodeignore.svg");
+}
+
+.ic.ic-vsd {
+  background-image: url("svg/vsd.svg");
+}
+
+.ic.ic-vss {
+  background-image: url("svg/vss.svg");
+}
+
+.ic.ic-vst {
+  background-image: url("svg/vst.svg");
+}
+
+.ic.ic-vsx {
+  background-image: url("svg/vsx.svg");
+}
+
+.ic.ic-vtx {
+  background-image: url("svg/vtx.svg");
+}
+
+.ic.ic-war {
+  background-image: url("svg/war.svg");
+}
+
+.ic.ic-wav {
+  background-image: url("svg/wav.svg");
+}
+
+.ic.ic-wbk {
+  background-image: url("svg/wbk.svg");
+}
+
+.ic.ic-webinfo {
+  background-image: url("svg/webinfo.svg");
+}
+
+.ic.ic-webm {
+  background-image: url("svg/webm.svg");
+}
+
+.ic.ic-webp {
+  background-image: url("svg/webp.svg");
+}
+
+.ic.ic-wma {
+  background-image: url("svg/wma.svg");
+}
+
+.ic.ic-wmf {
+  background-image: url("svg/wmf.svg");
+}
+
+.ic.ic-wmv {
+  background-image: url("svg/wmv.svg");
+}
+
+.ic.ic-woff {
+  background-image: url("svg/woff.svg");
+}
+
+.ic.ic-woff2 {
+  background-image: url("svg/woff2.svg");
+}
+
+.ic.ic-wpd {
+  background-image: url("svg/wpd.svg");
+}
+
+.ic.ic-wps {
+  background-image: url("svg/wps.svg");
+}
+
+.ic.ic-wsf {
+  background-image: url("svg/wsf.svg");
+}
+
+.ic.ic-xaml {
+  background-image: url("svg/xaml.svg");
+}
+
+.ic.ic-xcf {
+  background-image: url("svg/xcf.svg");
+}
+
+.ic.ic-xcodeproj {
+  background-image: url("svg/xcodeproj.svg");
+}
+
+.ic.ic-xfl {
+  background-image: url("svg/xfl.svg");
+}
+
+.ic.ic-xlb {
+  background-image: url("svg/xlb.svg");
+}
+
+.ic.ic-xlc {
+  background-image: url("svg/xlc.svg");
+}
+
+.ic.ic-xlm {
+  background-image: url("svg/xlm.svg");
+}
+
+.ic.ic-xls {
+  background-image: url("svg/xls.svg");
+}
+
+.ic.ic-xlsb {
+  background-image: url("svg/xlsb.svg");
+}
+
+.ic.ic-xlsm {
+  background-image: url("svg/xlsm.svg");
+}
+
+.ic.ic-xlsx {
+  background-image: url("svg/xlsx.svg");
+}
+
+.ic.ic-xlt {
+  background-image: url("svg/xlt.svg");
+}
+
+.ic.ic-xltm {
+  background-image: url("svg/xltm.svg");
+}
+
+.ic.ic-xltx {
+  background-image: url("svg/xltx.svg");
+}
+
+.ic.ic-xml {
+  background-image: url("svg/xml.svg");
+}
+
+.ic.ic-xpi {
+  background-image: url("svg/xpi.svg");
+}
+
+.ic.ic-xps {
+  background-image: url("svg/xps.svg");
+}
+
+.ic.ic-xrb {
+  background-image: url("svg/xrb.svg");
+}
+
+.ic.ic-xsd {
+  background-image: url("svg/xsd.svg");
+}
+
+.ic.ic-xsl {
+  background-image: url("svg/xsl.svg");
+}
+
+.ic.ic-xspf {
+  background-image: url("svg/xspf.svg");
+}
+
+.ic.ic-xz {
+  background-image: url("svg/xz.svg");
+}
+
+.ic.ic-yaml {
+  background-image: url("svg/yaml.svg");
+}
+
+.ic.ic-yml {
+  background-image: url("svg/yml.svg");
+}
+
+.ic.ic-z {
+  background-image: url("svg/z.svg");
+}
+
+.ic.ic-zip {
+  background-image: url("svg/zip.svg");
+}
+
+.ic.ic-zsh {
+  background-image: url("svg/zsh.svg");
+}
